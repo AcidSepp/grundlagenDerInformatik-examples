@@ -9,6 +9,18 @@ PRs welcome!
 
 ## Setup
 
+- Clone this project:
+
+```bash
+git clone https://github.com/AcidSepp/grundlagenDerInformatik-examples.git
+```
+
+- Setup into the project:
+
+```bash
+cd grundlagenDerInformatik-examples
+```
+
 - Create a virtual environment for this project:
 
 ```bash
