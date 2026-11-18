@@ -1,6 +1,7 @@
 # snippet: iterative
 def collatz_iterative(x: int) -> int:
     while x != 1:
+        print(x)
         if x % 2 == 0:
             x = x // 2
         else:
@@ -16,3 +17,6 @@ def collatz_recursive(x: int) -> int:
             return collatz_recursive(x * 3 + 1)
     else:
         return x
+
+if __name__ == '__main__':
+    collatz_iterative(1000)

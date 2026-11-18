@@ -1,9 +1,13 @@
-def fak(i: int):
-    if i == 0:
-        return 0
-    if i == 1:
+# snippet: recursive
+def fak(n: int):
+    if n <= 1:
         return 1
-    return fak(i - 1) * i
+    return fak(n - 1) * n
+# snippet: /recursive
+
+def fak_iterative(n: int):
+    while n <= 1:
+        n = (n - 1)
 
 if __name__ == '__main__':
-    print(fak(2345678))
+    print(fak(5))
